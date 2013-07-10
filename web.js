@@ -1,4 +1,6 @@
 var express = require('express');
+var fs = require('fs'); // So I can call it later :)
+
 
 var app = express.createServer(express.logger());
 
